@@ -69,4 +69,4 @@ Cuando se realiza una petición al sistema:
 
 ```bash
 git clone <URL_DEL_REPO>
-cd plataforma-LocalStak-devops
+cd Plataforma-LocalStak-Devops
