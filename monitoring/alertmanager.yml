@@ -1,0 +1,12 @@
+global:
+  resolve_timeout: 5m
+
+route:
+  receiver: "default"
+
+receivers:
+  - name: "default"
+    email_configs:
+      - to: "test@example.com"
+        from: "alertmanager@example.com"
+        smarthost: "localhost:25"
